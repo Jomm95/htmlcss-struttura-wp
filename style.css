@@ -31,28 +31,29 @@ nav {
     background-color: lightskyblue;
 }
 
-#left-section {
-    margin:10px 10px 10px 0;
+.section {
     height:250px;
     width:20%;
     float:left;
     background-color: lightskyblue;
+}
+
+.left {
+    margin:10px 10px 10px 0;
+    float:left;
 }
 
 #center-section {
     background-color: lightskyblue;
     height:250px;
-    width:57%;
+    width:58%;
     margin:10px 0 10px 0;
     float:left;
 }
 
-#right-section {
+.right {
     margin:10px 0 10px 10px;
-    height:250px;
-    width:20%;
     float:right;
-    background-color: lightskyblue;
 }
 
 footer {
