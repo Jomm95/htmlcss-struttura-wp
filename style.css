@@ -1,16 +1,17 @@
 * {
     box-sizing: border-box;
     margin:auto;
+    padding:0;
 }
 
 body {
-    width:80%;
+    width:75%;
 }
 
 header {
     height:45px;
     background-color: lightpink;
-    margin:10px 0 10px 0;
+    margin:10px 0;
 }
 
 article {
@@ -28,14 +29,11 @@ main {
 
 nav {
     height: 30px;
-    background-color: lightskyblue;
 }
 
 .section {
     height:250px;
     width:20%;
-    float:left;
-    background-color: lightskyblue;
 }
 
 .left {
@@ -43,8 +41,7 @@ nav {
     float:left;
 }
 
-#center-section {
-    background-color: lightskyblue;
+.center-section {
     height:250px;
     width:58%;
     margin:10px 0 10px 0;
@@ -56,13 +53,13 @@ nav {
     float:right;
 }
 
+.lightblue {
+    background-color: lightskyblue;
+}
+
 footer {
     height:25px;
     background-color: orangered;
+    
     margin-top:5px;
 }
-
-
-
-
-
